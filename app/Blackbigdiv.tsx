@@ -3,9 +3,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./page.module.css";
-
-// ─── Types ────────────────────────────────────────────────────────────────────
-
 interface HeroItem {
   id: number;
   bg: string;
@@ -13,7 +10,6 @@ interface HeroItem {
   mt: string;
   bc: string;
 }
-
 interface CardItem {
   id: number;
   bg: string;
@@ -22,9 +18,6 @@ interface CardItem {
   bc: string;
   author: string;
 }
-
-// ─── Static Data ──────────────────────────────────────────────────────────────
-
 const heroItems: HeroItem[] = [
   { id: 62, bg: "https://nerio.rstheme.com/food-recipe/wp-content/uploads/sites/4/2025/11/post_45-min-1024x508.jpg", bt: "dessert", mt: "The best street foods around the world you must try ...", bc: "#5e2bff" },
   { id: 63, bg: "https://nerio.rstheme.com/food-recipe/wp-content/uploads/sites/4/2025/11/post_28-min-1024x508.jpg", bt: "food",    mt: "Learn how to create a vibrant vegetable stir fry",        bc: "#00b5ed" },
@@ -35,14 +28,9 @@ const smallCards: CardItem[] = [
   { id: 65, bg: "https://nerio.rstheme.com/food-recipe/wp-content/uploads/sites/4/2025/11/post_28-min-1024x508.jpg", bt: "food",       mt: "Learn how to create a vibrant vegetable stir fry", bc: "#00b5ed", author: "matt rosnor" },
   { id: 66, bg: "https://nerio.rstheme.com/food-recipe/wp-content/uploads/sites/4/2025/11/post_30-min-1024x508.jpg", bt: "vegetables", mt: "Discover a fresh herb roasted vegetable tray",     bc: "#54bd05", author: "matt rosnor" },
 ];
-
-// ─── Component ────────────────────────────────────────────────────────────────
-
 export default function Blackbigdiv() {
   const [viewCounts, setViewCounts] = useState<Record<number, number>>({});
-
-  // ── Fetch all view counts on mount ─────────────────────────────────────────
-  useEffect(() => {
+useEffect(() => {
     const uniqueIds = [...new Set([...heroItems.map((d) => d.id), ...smallCards.map((c) => c.id)])];
 
     const fetchViews = async () => {
@@ -58,9 +46,7 @@ export default function Blackbigdiv() {
 
     fetchViews();
   }, []);
-
-  // ── Optimistic view count update ───────────────────────────────────────────
-  const handleViewClick = async (id: number) => {
+const handleViewClick = async (id: number) => {
     const res  = await fetch(`/api/views/${id}`, { method: "POST" });
     const data = await res.json();
     setViewCounts((prev) => ({ ...prev, [id]: data.views }));
@@ -69,9 +55,7 @@ export default function Blackbigdiv() {
   return (
     <div className={`${styles["black-big-div-in-the-center"]} d-flex flex-column justify-content-center align-items-start`}>
       <div className="container">
-
-        {/* ── Section Header ──────────────────────────────────────────── */}
-        <div className={`${styles["header-part-of-black-div-in-the-middle"]} d-flex justify-content-center align-items-center`}>
+ <div className={`${styles["header-part-of-black-div-in-the-middle"]} d-flex justify-content-center align-items-center`}>
           <div className={`${styles["h2-of-header-part-of-black-div-in-the-middle"]} d-flex flex-column justify-content-center align-items-start`}>
             <h2 style={{ color: "white" }}>Recipes Video</h2>
           </div>
@@ -84,12 +68,9 @@ export default function Blackbigdiv() {
 
        
         </div>
-
-        {/* ── Content ─────────────────────────────────────────────────── */}
         <div className={`${styles["secod-part-of-black-big-div-in-the-centre"]} d-flex flex-column justify-content-center align-items-start`}>
           <div className="row g-4 pt-4">
 
-            {/* Hero cards */}
             {heroItems.map((item, index) => (
               <div className={index === 0 ? "col-xl-4 col-12" : "col-xl-8 col-12"} key={item.id}>
                 <Link
@@ -135,8 +116,6 @@ export default function Blackbigdiv() {
                 </Link>
               </div>
             ))}
-
-            {/* Small cards */}
             {smallCards.map((item) => (
               <div className="col-xl-4 col-12" key={item.id}>
                 <Link

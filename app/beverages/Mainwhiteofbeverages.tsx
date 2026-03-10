@@ -6,9 +6,6 @@ import styles from "./beverages.module.css";
 import pageStyles from "../page.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-
-// ─── Types ───────────────────────────────────────────────────────────────────
-
 type MetaItem =
   | { type: "img"; src: string; alt: string; text: string; href: string }
   | { type: "icon"; iconClass: string; text: string; href: string };
@@ -16,9 +13,6 @@ type MetaItem =
 interface TagItem   { id: number; label: string }
 interface IconItem  { id: number; ic: string }
 interface SidebarItem { id: number; bc: string; ic: string }
-
-// ─── Data ─────────────────────────────────────────────────────────────────────
-
 const metaItems: MetaItem[] = [
   {
     type: "img",
@@ -57,9 +51,6 @@ const sidebarItems: SidebarItem[] = [
   { id: 119, bc: "#000000",  ic: "fa-solid fa-cart-shopping" },
   { id: 120, bc: "#132F97",  ic: "fa-solid fa-life-ring" },
 ];
-
-// ─── Component ───────────────────────────────────────────────────────────────
-
 export default function Mainwhiteofbeverages() {
   const [name,    setName]    = useState("");
   const [email,   setEmail]   = useState("");
@@ -84,7 +75,6 @@ export default function Mainwhiteofbeverages() {
       <div className="container">
         <div className="d-flex flex-column align-items-center">
 
-          {/* ── Post Header ───────────────────────────────────────────── */}
           <div className={styles["post__header"]}>
             <Link href="/recipiesiof-food" style={{ textDecoration: "none", color: "inherit" }}>
               <button className={styles["post__cat-btn"]} style={{ backgroundColor: "#0073FF" }}>
@@ -100,7 +90,6 @@ export default function Mainwhiteofbeverages() {
               <div className={pageStyles["small-blue-romb"]} />
             </div>
 
-            {/* Meta row */}
             <div className={`${styles["meta"]} d-flex flex-wrap`}>
               {metaItems.map((item, i) => (
                 <Link key={i} href={item.href} style={{ textDecoration: "none", color: "inherit" }}>
@@ -117,14 +106,12 @@ export default function Mainwhiteofbeverages() {
             </div>
           </div>
 
-          {/* ── Hero Image ────────────────────────────────────────────── */}
           <img
             src="https://nerio.rstheme.com/food-recipe/wp-content/uploads/sites/4/2025/11/post_22-min.jpg"
             alt="Beverages hero"
             className={styles["post__hero"]}
           />
 
-          {/* ── Post Body ─────────────────────────────────────────────── */}
           <div className={`${styles["post__content"]} d-flex flex-column align-items-start`}>
 
             <p className={styles["post__text"]}>
@@ -155,7 +142,6 @@ export default function Mainwhiteofbeverages() {
               prompting renewed efforts at the scene.
             </p>
 
-            {/* Gallery – 2 col */}
             <div className="row w-100" style={{ marginTop: 14, marginBottom: 35 }}>
               <div className="col-6">
                 <img
@@ -179,8 +165,6 @@ export default function Mainwhiteofbeverages() {
               preparations for further action. Community members have been closely monitoring
               updates, expressing both relief and concern as the story unfolds.
             </p>
-
-            {/* Blockquote */}
             <div className={`${styles["blockquote"]} d-flex flex-column align-items-center text-center`}>
               <p style={{ marginTop: 20, fontSize: 18, fontWeight: 400 }}>
                 Analysts observing the situation noted that the pace of developments suggests
@@ -196,7 +180,6 @@ export default function Mainwhiteofbeverages() {
               breakthrough.
             </p>
 
-            {/* Gallery – full width */}
             <div className="row w-100" style={{ marginTop: 14, marginBottom: 35 }}>
               <div className="col-12">
                 <img
@@ -224,16 +207,14 @@ export default function Mainwhiteofbeverages() {
               <li>New Findings Intensify Public Interest in Probe</li>
             </ul>
 
-            {/* Ad banner */}
             <img
               src="https://nerio.rstheme.com/newspaper/wp-content/uploads/sites/2/2025/10/ad-banner-thumb-01.png"
               alt="advertisement"
               className={styles["post__hero"]}
             />
 
-            {/* ── Tags & Share ──────────────────────────────────────────── */}
             <div className={`${styles["tags"]} d-flex justify-content-between align-items-center flex-wrap`}>
-              {/* Tags */}
+ 
               <div className={`${styles["tags__left"]} d-flex align-items-center`}>
                 <h6 style={{ margin: 0 }}>Tags:</h6>
                 <div className="d-flex flex-wrap" style={{ gap: 8 }}>
@@ -245,7 +226,6 @@ export default function Mainwhiteofbeverages() {
                 </div>
               </div>
 
-              {/* Share */}
               <div className={`${styles["tags__left"]} d-flex align-items-center`}>
                 <h6 style={{ margin: 0 }}>Share:</h6>
                 <div className="d-flex align-items-center" style={{ gap: 12 }}>
@@ -257,9 +237,7 @@ export default function Mainwhiteofbeverages() {
                 </div>
               </div>
             </div>
-
-            {/* ── Author Card ───────────────────────────────────────────── */}
-            <div className={`${styles["author"]} w-100`}>
+<div className={`${styles["author"]} w-100`}>
               <div className="row align-items-center">
                 <div className="col-md-3">
                   <Link href="/author/matt-rosnor" style={{ textDecoration: "none" }}>
@@ -293,10 +271,9 @@ export default function Mainwhiteofbeverages() {
               </div>
             </div>
 
-            {/* ── Post Navigation ───────────────────────────────────────── */}
-            <div className={`${styles["post-nav"]} w-100`}>
+           <div className={`${styles["post-nav"]} w-100`}>
               <div className="row g-3">
-                {/* Previous */}
+
                 <div className="col-md-6">
                   <Link href="/previous-post" style={{ textDecoration: "none", color: "inherit" }}>
                     <div className="row align-items-center">
@@ -317,7 +294,6 @@ export default function Mainwhiteofbeverages() {
                   </Link>
                 </div>
 
-                {/* Next */}
                 <div className="col-md-6">
                   <Link href="/next-post" style={{ textDecoration: "none", color: "inherit" }}>
                     <div className="row align-items-center">
@@ -374,7 +350,6 @@ export default function Mainwhiteofbeverages() {
                 placeholder="Write Comment"
               />
 
-              {/* Checkbox */}
               <div className="d-flex align-items-center" style={{ gap: 8 }}>
                 <div
                   role="checkbox"
