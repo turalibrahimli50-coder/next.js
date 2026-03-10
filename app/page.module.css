@@ -1,3 +1,355 @@
+.li-of-second-of-latest-part-of-the-website a:hover {
+    color: #0073FF !important;
+}
+.lines-of-header-part-of-black-div-in-the-middle2{
+  width: 100%;
+}
+.tag-button2{
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #191B1F;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 1px solid #353536;
+  transition: 0.3s;
+  cursor: pointer;
+  width: auto !important;
+  color: #CCCCCC;
+}
+.tag-button2:hover{
+  color: white;
+  background-color: #0173FF;
+}
+.first-of-main-right-side-divs-group2{
+  background-color: #121213;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #353536;
+  gap: 15px;
+}
+.li-of-second-of-latest-part-of-the-website{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+    border-style: none;
+    text-transform: capitalize;
+    }  
+.ul-of-second-of-latest-part-of-the-website{
+  color: #FFFFFFB3;
+  font-size: 16px;
+  font-weight: 500;
+}
+.b-of-second-of-latest-part-of-the-website{
+  width: 130px;
+  height: 2px;
+  background: linear-gradient(to right, white 70px, #353536 70px);
+}
+.second-of-latest-part-of-the-website{
+  gap: 20px;
+}
+.play-market-of-latest-part-of-the-website{
+  width: 115px;
+}
+.play-markets-of-latest-part-of-the-website{
+  gap: 20px;
+}
+.play-markets-of-latest-part-of-the-website{
+  margin-top: 80px;
+}
+.icon-divs-of-first-of-latest-part-of-the-website{
+  gap: 12px;
+}
+.icons-of-first-of-latest-part-of-the-website{
+    color: white;
+    font-size: 16px;
+    background-color: #202021;
+    width: 32px;
+    height: 32px;
+    border-radius: 0px 0px 0px 0px;
+    border-style: none;
+}
+.gray-writing-of-first-of-latest-part-of-the-website{
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFFFFFB3;
+  font-family:"Inter Tight", sans-serif;
+}
+.first-of-latest-part-of-the-website{
+  width: 100%;
+  padding: 10px;
+}
+.img-of-first-of-latest-part-of-the-website{
+width: 95px;
+}
+.latest-part-of-the-website{
+  background-color: #121213;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 100%;
+  margin-top: 80px;
+}
+.img-part-of-big-img-div-in-the-center{
+  width:57%;
+}
+.small-writing-of-body-part-of-big-img-div-in-the-center{
+color: #fff;
+font-size: 16px;
+font-weight: 500;
+}
+.small-square-of-body-part-of-big-img-div-in-the-center{
+    width: 15px;
+    height: 15px;
+    border-style: solid;
+    border-color: #FFFFFF80;
+    border-radius: 3px;
+}
+.div-of-input-of-body-part-of-big-img-div-in-the-center{
+  position: relative;
+  width: 100%;
+}
+.button-of-input-of-body-part-of-big-img-div-in-the-center{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  padding: 0px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0073FF;
+  border: none;
+  border-radius: 6px;
+}
+.input-of-body-part-of-big-img-div-in-the-center{
+    margin: 0px 0px 0px 0px;
+     padding: 12px 120px 12px 20px;
+    border-radius: 6px 6px 6px 6px;
+    color: #616C74;
+    border:1px solid #E5E5E5;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+.body-part-of-big-img-div-in-the-center{
+  gap: 20px;
+  width: 43%;
+}
+.big-img-div-in-the-center{
+  background-image: url("https://nerio.rstheme.com/food-recipe/wp-content/uploads/sites/4/2025/11/nerio_adds-1.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 8px;
+  padding: 40px 65px;
+}
+.black-small-div-of-big-black-div{
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+    padding: 12px;
+    margin: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: #FFFFFF26;
+}
+.black-big-div-in-the-center{
+  padding-top: 70px;
+  padding-bottom: 80px;
+  width: 100%;
+  background-color: #161A1E;
+}
+.tag-button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 1px solid #E5E5E5;
+  transition: 0.3s;
+  cursor: pointer;
+  width: auto !important;
+}
+.tag-button:hover {
+  color: white;
+  background-color: #0173FF;
+}
+.body-of-gray-small-many-buttons-div{
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+.left-side-of-colorful-long-divs{
+  gap: 8px;
+}
+.colorful-long-divs{
+  width: 100%;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 10px 15px 10px 15px;
+  border-radius: 6px;
+}
+.right-side-li-of-second-part-of-body-of-weather-part-of-main-right-side-divs-group{
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1em;
+  color: #FFFFFF;
+  flex: 1;  
+}
+.left-side-li-of-second-part-of-body-of-weather-part-of-main-right-side-divs-group{
+  color: #FFFFFF;
+  font-size: 24px;
+   width: 30px; 
+}
+.li-of-second-part-of-body-of-weather-part-of-main-right-side-divs-group{
+  gap: 10px;
+  width: 50%;
+  font-size: 14px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(50% - 9px);
+  padding: 0px;
+}
+.ul-of-second-part-of-body-of-weather-part-of-main-right-side-divs-group{
+gap: 18px;
+width: 100%;
+ display: flex;
+  flex-wrap: wrap;
+}
+.div-of-the-weather-of-now{
+    width: 100%;
+    height: 100%;
+}
+.the-sun{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.the-weather-of-now{
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.body-of-weather-part-of-main-right-side-divs-group{
+    width: 100%;
+}
+.first-part-of-body-of-weather-part-of-main-right-side-divs-group{
+    padding: 0px 0px 30px 0px;
+    margin: 0px 0px 25px 0px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FFFFFF42;
+    gap: 10px;
+    width: 100%;
+}
+.second-part-of-header-of-weather-part-of-main-right-side-divs-group{
+    gap: 10px;
+}
+.first-part-of-header-of-weather-part-of-main-right-side-divs-group{
+    width: 100%;
+}
+.white-date-of-first-part-of-header-of-weather-part-of-main-right-side-divs-group{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;  
+}
+.header-of-weather-part-of-main-right-side-divs-group{
+    gap: 10px;
+    width: 100%;
+}
+.weather-part-of-main-right-side-divs-group{
+  padding: 20px;
+  gap: 29px;
+  background: linear-gradient(144deg, #0073FF 0%, #62A9FF 100%);
+  width: 100%;
+  border-radius: 10px;
+}
+.div-of-img-of-div-of-body-part-of-first-of-main-right-side-divs-group{
+   width:90px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:90px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.left-side-div-of-body-part-of-first-of-main-right-side-divs-group{
+   width:35%; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100%;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.img-of-div-of-body-part-of-first-of-main-right-side-divs-group{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+transition: transform 0.5s;
+overflow: hidden;
+}
+.img-of-div-of-body-part-of-first-of-main-right-side-divs-group:hover{
+ transform: scale(1.4);
+}
+ .div-of-body-part-of-first-of-main-right-side-divs-group{
+  border-width: 0px 0px 1px 0px;
+  border-color: #E5E5E5;
+  border-style: solid;
+  padding: 10px 0px 10px 0px;
+ }
+ .right-side-div-of-body-part-of-first-of-main-right-side-divs-group{
+    padding: 0px;
+    width:65%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+ }
+.div-of-head-part-of-first-of-main-right-side-divs-group{
+   width: 100%;
+   padding: 15px 35px;
+   border-radius: 5px;
+   background-color: #ffffff;
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: capitalize;
+   border: 1px solid #E5E5E5;
+   transition: 0.3s;
+}
+.div-of-head-part-of-first-of-main-right-side-divs-group:hover{
+color: white;
+background-color: #0173FF;
+}
+.head-part-of-first-of-main-right-side-divs-group{
+  gap: 7px;
+  width: 100%;
+}
+.first-of-main-right-side-divs-group{
+  background-color: #F7F7F7;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+  gap: 15px;
+}
+.main-right-side-divs-group{
+  width: 100%;
+  position: sticky;
+  gap: 20px;
+  top: 20px;
+}
 .left-side-gray-small-div-of-second2{
    width:35%; 
    display: flex;
@@ -5,6 +357,9 @@
    height: 100%;
    overflow: hidden;
    border-radius: 10px;
+}
+.img-of-gray-small-div-of-second2:hover{
+   transform: scale(1.4);
 }
 .img-of-gray-small-div-of-second2{
     width: 100%;
@@ -428,7 +783,7 @@ transform: scale(1.4);
   height: 100%;
   z-index:1;
   background-color: black;
-  opacity:0.3;
+  opacity:0.2;
   border-radius: 10px;
 }
 .slide-img > * {
@@ -481,14 +836,26 @@ width: 25%;
 .lines-of-header-part-of-black-div-in-the-middle{
     width: 70%;
 }
+  .div-of-body-part-of-first-of-main-right-side-divs-group {
+  width: 100%;
 }
-@media(max-width: 1024px){
+.first-of-main-right-side-divs-group{
+  width: 100%;
+}
+}
+@media(max-width: 1025px){
 .first-ul-of-head{
     display: none !important;
 }
 .swiper-of-head{
     width: 100% !important;
 }
+ .main-right-side-divs-group {
+    width: 100% !important;
+  }
+  .first-of-main-right-side-divs-group{
+    width: 100% !important;
+  }
 }
 @media(max-width:992px){
     .tickerContainer,
@@ -507,6 +874,36 @@ width: 25%;
   }
   .lines-of-header-part-of-black-div-in-the-middle{
     width: 100%;
+  }
+}
+@media(max-width:768px){
+  .big-img-div-in-the-center {
+    padding: 30px 20px;
+  }
+  
+  .body-part-of-big-img-div-in-the-center {
+    width: 100%;
+  }
+  
+  .img-part-of-big-img-div-in-the-center {
+    display: none !important;
+  }
+  
+  .button-of-input-of-body-part-of-big-img-div-in-the-center {
+    position: static;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  
+  .div-of-input-of-body-part-of-big-img-div-in-the-center {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-of-body-part-of-big-img-div-in-the-center {
+    padding: 12px 20px;
   }
 }
 @media(max-width: 576px) {
