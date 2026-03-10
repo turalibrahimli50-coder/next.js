@@ -1,8 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  turbopack: {
-    root: "/Users/turalibrahimov/Desktop/nextapp",
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "nerio.rstheme.com",
+      },
+    ],
   },
 };
 

@@ -43,14 +43,7 @@ export default function Blackdivinthemiddle() {
               <div className={styles["small-blue-romb"]} />
             </div>
 
-            <Link href="/categories" style={{ textDecoration: "none" }}>
-              <div className={`${styles["writings-of-header-part-of-black-div-in-the-middle"]} d-flex justify-content-center align-items-center`}>
-                <span className={`${styles["writing-of-header-part-of-black-div-in-the-middle"]} text-uppercase`}>
-                  view all
-                </span>
-                <i className={`${styles["writing-of-header-part-of-black-div-in-the-middle"]} fa-solid fa-arrow-right`} />
-              </div>
-            </Link>
+         
           </div>
 
           {/* ── Categories Grid ─────────────────────────────────────────── */}

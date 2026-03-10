@@ -340,7 +340,6 @@ export default function Mainwhiteofbeverages() {
               </div>
             </div>
 
-            {/* ── Comment Form ──────────────────────────────────────────── */}
             <div className={`${styles["comment"]} d-flex flex-column align-items-start`} style={{ gap: 25 }}>
               <h4>Leave a Comment</h4>
               <p className={styles["comment__subtitle"]}>Your email address will not be published.</p>
@@ -400,8 +399,6 @@ export default function Mainwhiteofbeverages() {
                   Save my name, email, and website in this browser for the next time I comment.
                 </span>
               </div>
-
-              {/* Validation errors */}
               {errors.length > 0 && (
                 <div style={{ color: "red", fontSize: 14, display: "flex", flexDirection: "column", gap: 4 }}>
                   {errors.map((err, i) => (
@@ -414,11 +411,10 @@ export default function Mainwhiteofbeverages() {
                 Post Comment
               </button>
             </div>
-          </div>{/* /post__content */}
+          </div>
         </div>
       </div>
 
-      {/* ── Sticky Sidebar ────────────────────────────────────────────────── */}
       <button
         onClick={() => setSidebarVisible((prev) => !prev)}
         style={{
