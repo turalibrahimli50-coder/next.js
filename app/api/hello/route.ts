@@ -13,14 +13,22 @@ function saveViews(views: Record<string, number>) {
   fs.writeFileSync(filePath, JSON.stringify(views));
 }
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(
+  req: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
   const views = getViews();
-  return NextResponse.json({ views: views[params.id] || 0 });
+  return NextResponse.json({ views: views[id] || 0 });
 }
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(
+  req: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
   const views = getViews();
-  views[params.id] = (views[params.id] || 0) + 1;
+  views[id] = (views[id] || 0) + 1;
   saveViews(views);
-  return NextResponse.json({ views: views[params.id] });
+  return NextResponse.json({ views: views[id] });
 }

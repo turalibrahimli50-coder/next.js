@@ -6,8 +6,6 @@ import Blackbigdiv from "./Blackbigdiv";
 import Whiteelementsectioninthemiddle from "./Whiteelementsectioninthemiddle";
 import Latestmainsection from "./Latestmainsectionwhite";
 import Latestpartofthewebsite from "./Latestpartofthewebsite";
-import { useRouter } from "next/navigation";
-
 export default function Home() {
   return (
     <>
